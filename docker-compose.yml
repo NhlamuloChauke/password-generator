@@ -1,0 +1,9 @@
+version: '2.2'
+services:
+   password-generator:
+    image: password-generator
+    container_name: password-generator
+    build:
+      context: ./password-generator
+    ports:
+     - 8083:8083
