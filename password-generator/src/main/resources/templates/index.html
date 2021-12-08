@@ -65,12 +65,13 @@
 								</div>
 							</div>
 						</form>
-						<br />
+						<p style="text-align: center; color: cadetblue;" id="eventAlert">
+						</p>
 						<p style="text-align: center;">
 							Your new generated password will appear here: &nbsp;<span style="color: rgb(188, 54, 67);"
 								id="p1" th:utext="${message}"> </span>
 							<br />
-							<button class="btn btn-primary" onclick="copyToClipboard('#p1')">Copy Password!</button>
+							<button class="btn btn-primary" onclick="copyToClipboard('#p1'); eventAlert()">Copy Password!</button>
 						</p>
 					</div>
 				</main>
@@ -92,7 +93,7 @@
 		/*
 		function:    copyToClipboard
 		parameter:   element
-		description: function that will allow users to copy generated password
+		description: function that will allow users to copy generated password.
 		*/
 		function copyToClipboard(element) {
 			var $temp = $("<input>");
@@ -101,6 +102,15 @@
 			document.execCommand("copy");
 			$temp.remove();
 		}
+		
+		/*
+		function:    eventAlert
+		description: Alert when a user copies a password.
+		*/
+		function eventAlert(){
+			document.getElementById("eventAlert").innerText="Generated password copied!"
+		}
+		
 	</script>
 </body>
 
