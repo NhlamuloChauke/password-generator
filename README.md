@@ -25,13 +25,6 @@ Generate temporary password is now a requirement on almost every website now-a-d
  ```
 2. **Run password-generator project(using MAVEN)**
  ```
- cd password-generator
- ls
- README.md		docker-compose.yml	password-generator
- cd password-generator
- ls
- Dockerfile	mvnw		pom.xml		
- HELP.md		        mvnw.cmd	src
-
+ cd password-generator/password-generator
  mvn clean install
  ```
