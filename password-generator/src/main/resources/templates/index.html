@@ -14,7 +14,6 @@
 </head>
 
 <body>
-	<!--NAVBAR-->
 	<nav class="navbar navbar-light bg-light py-0">
 		<div class="container">
 			<a class="navbar-brand" href="#">
@@ -23,7 +22,6 @@
 		</div>
 	</nav>
 	<br />
-	<!--BODY-->
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -44,7 +42,7 @@
 								<li>It should contain at least one capital case letter.</li>
 								<li>It should contain at least one lower-case letter.</li>
 								<li>It should contain at least one number.</li>
-								<li>Length should be at least more than 8 characters.</li>
+								<li>Length should be at least more than 6 characters.</li>
 								<li>It should contain one of the following special characters: @, $, #, !.</li>
 							</ul>
 						</div>
@@ -67,10 +65,10 @@
 								</div>
 							</div>
 						</form>
-						<div th:if="${message != null}">
-							<div class="alert alert-success col-md-4 col-md-offset-4" align="center">[[${message}]]
-							</div>
-						</div>
+						Your new generated password will appear here:&nbsp;<span style="color: rgb(188, 54, 67);" id="p1" th:utext="${message}"> </span>
+						<br />
+						<button onclick="copyToClipboard('#p1')">Copy Generated Password</button>
+						<br /><br /><input type="text" placeholder="Paste here for test" />
 					</div>
 				</main>
 			</div>
@@ -86,6 +84,21 @@
 		integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
 		crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script>
+		/*
+		function:    copyToClipboard
+	    parameter:   element
+	    description: function that will allow users to copy generated password
+		*/
+		function copyToClipboard(element) {
+			var $temp = $("<input>");
+			$("body").append($temp);
+			$temp.val($(element).text()).select();
+			document.execCommand("copy");
+			$temp.remove();
+		}
+	</script>
 </body>
 
 </html>
