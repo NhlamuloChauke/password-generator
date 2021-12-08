@@ -47,4 +47,4 @@ Generate temporary password is now a requirement on almost every website now-a-d
 ![3](https://user-images.githubusercontent.com/17588855/145244346-73389fcd-9680-46a8-850f-2db090524e84.png)
 
 **REFERENCES**
-* Please read more about password generator here: https://www.tutorialspoint.com/Generating-password-in-Java
+* Please follow the link read more about generating password in java: https://www.tutorialspoint.com/Generating-password-in-Java
