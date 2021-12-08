@@ -41,3 +41,10 @@ Generate temporary password is now a requirement on almost every website now-a-d
   and click 'Generate Button' button to generate. Please see below:**
   
 ![2](https://user-images.githubusercontent.com/17588855/145243846-2445908e-3a49-489f-9814-786ce84bd1b8.png)
+
+**To copy your random generated password click 'Copy Password!' button as shown below:**
+
+![3](https://user-images.githubusercontent.com/17588855/145244346-73389fcd-9680-46a8-850f-2db090524e84.png)
+
+**REFERENCES**
+* Please read more about password generator here: https://www.tutorialspoint.com/Generating-password-in-Java
