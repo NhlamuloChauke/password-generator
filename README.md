@@ -34,4 +34,10 @@ Generate temporary password is now a requirement on almost every website now-a-d
 * http://localhost:8083/password-generator
 
 **See our home page below:**
+
 ![1](https://user-images.githubusercontent.com/17588855/145242787-d6be6518-b9b2-4495-8e21-01c28f464430.png)
+
+**To generate a random password, select the length of your choice from the dropdown and 
+  and click 'Generate Button' button to generate. Please see below:
+  
+![2](https://user-images.githubusercontent.com/17588855/145243846-2445908e-3a49-489f-9814-786ce84bd1b8.png)
