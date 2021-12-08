@@ -1,2 +1,37 @@
 # password-generator
-generate random password
+
+Generate temporary password is now a requirement on almost every website now-a-days. In case a user forgets the password, system generates a random password adhering to password policy of the company. 
+
+**Technologies**
+
+* Spring Boot - Back end
+* Thymeleaf - Front end
+* Docker
+
+**Install**
+
+* Install JDK java 11
+* Install docker and docker compose
+* Eclipse/IDEA/other tools
+
+**Running password-generator**
+
+1. **Git clone password-generator project**
+ ```
+ https://github.com/NhlamuloChauke/password-generator.git
+ ```
+ ```
+ git checkout develop
+ ```
+2. **Run password-generator project(using MAVEN)**
+ ```
+ cd password-generator
+ ls
+ README.md		docker-compose.yml	password-generator
+ cd password-generator
+ ls
+ Dockerfile	mvnw		pom.xml		
+ HELP.md		        mvnw.cmd	src
+
+ mvn clean install
+ ```
