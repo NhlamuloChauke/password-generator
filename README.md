@@ -32,3 +32,6 @@ Generate temporary password is now a requirement on almost every website now-a-d
 ```
 **After successful password-generator maven build, access password-generator below:**
 * http://localhost:8083/password-generator
+
+**See our home page below:**
+![1](https://user-images.githubusercontent.com/17588855/145242787-d6be6518-b9b2-4495-8e21-01c28f464430.png)
