@@ -30,5 +30,5 @@ Generate temporary password is now a requirement on almost every website now-a-d
  mvn clean install
  mvn spring-boot:run  
 ```
-**To run password-generator, follow the link below:**
+**After successful password-generator maven build, access password-generator below:**
 * http://localhost:8083/password-generator
