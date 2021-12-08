@@ -12,6 +12,7 @@ Generate temporary password is now a requirement on almost every website now-a-d
 
 * Install JDK java 11
 * Install docker and docker compose
+* Install maven
 * Eclipse/IDEA/other tools
 
 **Running password-generator**
@@ -27,4 +28,7 @@ Generate temporary password is now a requirement on almost every website now-a-d
  ```
  cd password-generator/password-generator
  mvn clean install
- ```
+ mvn spring-boot:run  
+```
+**To run password-generator, follow the link below:**
+* http://localhost:8083/password-generator
