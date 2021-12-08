@@ -65,10 +65,13 @@
 								</div>
 							</div>
 						</form>
-						Your new generated password will appear here:&nbsp;<span style="color: rgb(188, 54, 67);" id="p1" th:utext="${message}"> </span>
 						<br />
-						<button onclick="copyToClipboard('#p1')">Copy Generated Password</button>
-						<br /><br /><input type="text" placeholder="Paste here for test" />
+						<p style="text-align: center;">
+							Your new generated password will appear here: &nbsp;<span style="color: rgb(188, 54, 67);"
+								id="p1" th:utext="${message}"> </span>
+							<br />
+							<button class="btn btn-primary" onclick="copyToClipboard('#p1')">Copy Password!</button>
+						</p>
 					</div>
 				</main>
 			</div>
@@ -88,8 +91,8 @@
 	<script>
 		/*
 		function:    copyToClipboard
-	    parameter:   element
-	    description: function that will allow users to copy generated password
+		parameter:   element
+		description: function that will allow users to copy generated password
 		*/
 		function copyToClipboard(element) {
 			var $temp = $("<input>");
