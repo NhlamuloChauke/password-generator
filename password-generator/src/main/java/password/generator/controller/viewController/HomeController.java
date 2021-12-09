@@ -35,14 +35,14 @@ public class HomeController {
 		return new PasswordLength();
 	}
 
-	@GetMapping(path = "/password-generator")
+	@GetMapping(path = "/")
 	public String index(Model model) {
 		//the length of the list attribute
 		model.addAttribute("lengthList", lengthList);
 		return "index";
 	}
 
-	@PostMapping(path = "/password-generator")
+	@PostMapping(path = "/")
 	public String generatePassword(@ModelAttribute("length") PasswordLength length, HttpServletRequest request,
 			Model model) {
 		LOG.info("Password Length : {}", length.getLength().replaceAll("[^a-zA-Z0-9]", ""));
