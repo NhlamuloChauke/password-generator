@@ -31,20 +31,20 @@ Generate temporary password is now a requirement on almost every website now-a-d
  mvn spring-boot:run  
 ```
 **After successful password-generator maven build, access password-generator below:**
-* http://localhost:8083/password-generator
+* http://localhost:8083/
 
 **See our home page below:**
 
-![1](https://user-images.githubusercontent.com/17588855/145242787-d6be6518-b9b2-4495-8e21-01c28f464430.png)
+![1](https://user-images.githubusercontent.com/17588855/145350660-1001b1cd-15a6-4240-b386-e7187f348138.png)
 
 **To generate a random password, select the length of your choice from the dropdown and 
   and click 'Generate Button' button to generate. Please see below:**
   
-![2](https://user-images.githubusercontent.com/17588855/145243846-2445908e-3a49-489f-9814-786ce84bd1b8.png)
+![2](https://user-images.githubusercontent.com/17588855/145350694-d8b846f0-2959-4972-b48f-b4193b1ca33b.png)
 
 **To copy your random generated password click 'Copy Password!' button as shown below:**
 
-![3](https://user-images.githubusercontent.com/17588855/145244346-73389fcd-9680-46a8-850f-2db090524e84.png)
+![Screenshot 2021-12-09 at 09 11 18](https://user-images.githubusercontent.com/17588855/145350725-7a0d8015-18c6-4acf-8573-c2cef3bc5a74.png)
 
 **REFERENCES**
 * Please follow the link read more about generating password in java: https://www.tutorialspoint.com/Generating-password-in-Java
