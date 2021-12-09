@@ -72,12 +72,12 @@ public class HomeController implements ErrorController {
 	public String errorIndex(Model model) {
 		// refreshing or reloading the length of the list.
 		model.addAttribute("lengthList", lengthList);
-		return "index.html";
+		return "index";
 	}
 
 	public String getErrorPath(Model model) {
 		// refreshing or reloading the length of the list.
 		model.addAttribute("lengthList", lengthList);
-		return "index.html";
+		return "index";
 	}
 }
