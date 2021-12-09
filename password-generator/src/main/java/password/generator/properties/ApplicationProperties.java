@@ -2,6 +2,12 @@ package password.generator.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+/**
+ * 
+ * @author NChauke
+ * @since 06/12/2021
+ *
+ */
 @ConfigurationProperties(prefix = "app") 
 public class ApplicationProperties {
 	

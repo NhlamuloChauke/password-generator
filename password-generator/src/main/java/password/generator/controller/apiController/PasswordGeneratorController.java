@@ -12,6 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
 import password.generator.entity.PasswordLength;
 import password.generator.service.PasswordGeneratorService;
 
+/**
+ * 
+ * @author NChauke
+ * @since 06/12/2021
+ *
+ */
 @RestController
 public class PasswordGeneratorController {
 	private static final Logger LOG = LoggerFactory.getLogger(PasswordGeneratorController.class);

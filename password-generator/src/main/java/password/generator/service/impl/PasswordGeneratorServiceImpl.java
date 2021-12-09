@@ -12,6 +12,12 @@ import org.springframework.stereotype.Service;
 import password.generator.properties.ApplicationProperties;
 import password.generator.service.PasswordGeneratorService;
 
+/**
+ * 
+ * @author NChauke
+ * @since 06/12/2021
+ *
+ */
 @Service
 public class PasswordGeneratorServiceImpl implements PasswordGeneratorService {
 	private static final Logger LOG = LoggerFactory.getLogger(PasswordGeneratorServiceImpl.class);
